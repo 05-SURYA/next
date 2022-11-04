@@ -1,0 +1,18 @@
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+.nav-logo, .nav-main{
+    margin:10px;
+}
+.nav-main{
+    display: flex;
+}
+.nav-main li{
+    list-style-type: none;
+    margin:10px;
+}
+.nav-main li:hover{
+    color: black;
+}
